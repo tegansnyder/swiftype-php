@@ -1,11 +1,24 @@
-# swiftype-php
+# Fork of Nevon/swiftype-php
 
 A PHP client for [Swiftype](http://swiftype.com), a search and autocomplete API for developers.
+
+To see this fork add this to your `composer.json`
+
+```json
+    "repositories": [
+        {
+            "url": "https://github.com/tegansnyder/swiftype-php.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "nevon/swiftype": "dev-master"
+    }
+```
 
 ## Example usage
 
 ```php
-require 'swiftype.php';
 
 $client = new \Swiftype\SwiftypeClient('your@email.com', 'password', 'api_key');
 
