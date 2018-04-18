@@ -5,9 +5,6 @@
     "version": "1.0.0",
     "homepage": "https://github.com/Nevon/swiftype-php",
     "license": "MIT",
-    "require": {
-        "php": "^5.3"
-    },
     "autoload": {
       "psr-4": {
         "Swiftype\\": ["Swiftype"]
